@@ -4,7 +4,7 @@
 :root {
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(29, 80%, 58%);
+  --first-color: hsl(28, 80%, 58%);
   --first-color-light: hsl(29, 80%, 70%);
   --black-color: hsl(29, 16%, 10%);
   --text-color: hsl(29, 8%, 65%);
@@ -25,6 +25,13 @@
 
 body {
   font-family: var(--body-font);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
   --s: 25vmin;
   --p: calc(var(--s) / 2);
   --c1: pink;
